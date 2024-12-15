@@ -14,7 +14,7 @@ export function IntroModal({ visible, onStart }) {
     return (
         <div className={`fixed inset-0 z-50 ${visible ? "" : "hidden"}`}>
             <div className="flex items-center justify-center h-screen w-screen bg-black bg-opacity-50 gap-4">
-                <div className={`bg-black p-8 rounded-lg shadow-lg w-1/2 border-double ${borderColor} gap-8 flex flex-col`}>
+                <div className={`bg-black p-8 rounded-lg shadow-lg sm:w-0.95 md:w-1/2 border-double max-h-screen ${borderColor} gap-8 flex flex-col overflow-y-auto`}>
                     <h2 className="text-2xl text-center">Welcome, Gardener of Eden.</h2>
                     <p className="text-xm text-gray-400 italic">
                         <span className="block mb-1">From the dawn of mankind, you were to seed chaos, as only chaos leads to change. And change leads to progress.</span>
