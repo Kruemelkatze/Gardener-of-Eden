@@ -1,0 +1,402 @@
+[
+    {
+        "era": "Prehistoric Age",
+        "year": "-15000",
+        "scenarios": [
+            {
+                "text": "A neighboring tribe discovers fire and celebrates their newfound power.",
+                "choices": [
+                    {
+                        "text": "Replace their firewood with damp logs to trigger a 'fire curse' panic.",
+                        "chaos": 15,
+                        "people": 5,
+                        "gov": -5
+                    },
+                    {
+                        "text": "Whisper to their warriors that fire is best stored inside their huts.",
+                        "chaos": 20,
+                        "people": -10,
+                        "gov": 0
+                    }
+                ]
+            },
+            {
+                "text": "A mammoth migration offers a chance for a grand hunt.",
+                "choices": [
+                    {
+                        "text": "Lead hunters into a fake 'holy mammoth graveyard' filled with traps and conveniently placed bones.",
+                        "chaos": 25,
+                        "people": -5,
+                        "gov": 5
+                    },
+                    {
+                        "text": "Teach the tribe’s elders that mammoth meat spoils unless cooked with toxic berries.",
+                        "chaos": 20,
+                        "people": 0,
+                        "gov": -10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "era": "Ancient Egypt",
+        "year": "-1340",
+        "scenarios": [
+            {
+                "text": "A rival priesthood rises in popularity, threatening the pharaoh’s cult.",
+                "choices": [
+                    {
+                        "text": "Accuse the rival priests of performing sacrilegious ceremonies with mummified cats.",
+                        "chaos": 20,
+                        "people": 5,
+                        "gov": -5
+                    },
+                    {
+                        "text": "Forge divine omens predicting the Nile will dry up unless the rival priests are exiled.",
+                        "chaos": 15,
+                        "people": 10,
+                        "gov": 5
+                    }
+                ]
+            },
+            {
+                "text": "A drought causes unrest among the common people.",
+                "choices": [
+                    {
+                        "text": "Spread rumors that the pharaoh is secretly hoarding water in his tomb.",
+                        "chaos": 25,
+                        "people": 5,
+                        "gov": -10
+                    },
+                    {
+                        "text": "Sell 'blessed' water jars at exorbitant prices, claiming they bring rain.",
+                        "chaos": 15,
+                        "people": -5,
+                        "gov": 10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "era": "Imperial Rome",
+        "year": "64",
+        "scenarios": [
+            {
+                "text": "The Great Fire of Rome burns uncontrollably.",
+                "choices": [
+                    {
+                        "text": "Encourage rumors that Christians started the fire to anger the gods.",
+                        "chaos": 20,
+                        "people": 5,
+                        "gov": 10
+                    },
+                    {
+                        "text": "Spread forged edicts claiming Nero plans to rebuild the city as his private palace.",
+                        "chaos": 25,
+                        "people": 10,
+                        "gov": -10
+                    }
+                ]
+            },
+            {
+                "text": "Grain shortages are leading to unrest in the streets.",
+                "choices": [
+                    {
+                        "text": "Secretly sabotage grain shipments and frame local merchants for hoarding.",
+                        "chaos": 20,
+                        "people": -5,
+                        "gov": 5
+                    },
+                    {
+                        "text": "Sell cheap, moldy bread laced with hallucinogenic seeds.",
+                        "chaos": 15,
+                        "people": 0,
+                        "gov": 10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "era": "Crusades",
+        "year": "1096",
+        "scenarios": [
+            {
+                "text": "A charismatic preacher gathers a crowd to join the First Crusade.",
+                "choices": [
+                    {
+                        "text": "Convince him to demand outrageous donations, ensuring chaos among the poor.",
+                        "chaos": 20,
+                        "people": -5,
+                        "gov": 5
+                    },
+                    {
+                        "text": "Forge divine messages promising salvation to anyone who burns their village and leaves immediately.",
+                        "chaos": 25,
+                        "people": -10,
+                        "gov": 0
+                    }
+                ]
+            },
+            {
+                "text": "A lord attempts to gather support for a peaceful truce across the continent.",
+                "choices": [
+                    {
+                        "text": "Spread rumors that he is secretly worshipping Satan.",
+                        "chaos": 20,
+                        "people": 5,
+                        "gov": -5
+                    },
+                    {
+                        "text": "Hire bandits to raid his lands disguised as his troops.",
+                        "chaos": 25,
+                        "people": 0,
+                        "gov": 10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "era": "Black Death in Europe",
+        "year": "1347",
+        "scenarios": [
+            {
+                "text": "A town tries to quarantine itself against the plague.",
+                "choices": [
+                    {
+                        "text": "Sneak infected rats into their granary under the guise of delivering 'blessed wheat.'",
+                        "chaos": 25,
+                        "people": -10,
+                        "gov": 0
+                    },
+                    {
+                        "text": "Spread rumors that the town’s mayor bathes in plague victim blood to protect himself.",
+                        "chaos": 20,
+                        "people": 10,
+                        "gov": -5
+                    }
+                ]
+            },
+            {
+                "text": "A wandering preacher claims the plague is God’s punishment.",
+                "choices": [
+                    {
+                        "text": "Forge divine letters demanding he single out specific wealthy families.",
+                        "chaos": 15,
+                        "people": 5,
+                        "gov": 10
+                    },
+                    {
+                        "text": "Offer to 'purify' the preacher’s audience by dousing them in plague-infested water.",
+                        "chaos": 20,
+                        "people": -5,
+                        "gov": 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "era": "Colonial America",
+        "year": "1692",
+        "scenarios": [
+            {
+                "text": "Accusations of witchcraft spread in Salem.",
+                "choices": [
+                    {
+                        "text": "Forge evidence of broomstick sales by prominent townsfolk.",
+                        "chaos": 20,
+                        "people": 5,
+                        "gov": -5
+                    },
+                    {
+                        "text": "Sell 'witch-repellent' charms made from poisonous herbs.",
+                        "chaos": 15,
+                        "people": 0,
+                        "gov": 10
+                    }
+                ]
+            },
+            {
+                "text": "A merchant caravan is rumored to be cursed.",
+                "choices": [
+                    {
+                        "text": "Spread tales that their goods are haunted, inciting mobs.",
+                        "chaos": 25,
+                        "people": 10,
+                        "gov": -10
+                    },
+                    {
+                        "text": "Buy their 'cursed' goods and resell them to rival towns under fake names.",
+                        "chaos": 15,
+                        "people": -5,
+                        "gov": 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "era": "World War I",
+        "year": "1916",
+        "scenarios": [
+            {
+                "text": "Trench warfare drags on, and morale among soldiers is dangerously low.",
+                "choices": [
+                    {
+                        "text": "Circulate fake letters from loved ones blaming soldiers for the war’s misery.",
+                        "chaos": 20,
+                        "people": -5,
+                        "gov": -5
+                    },
+                    {
+                        "text": "Introduce 'experimental' rations laced with mind-altering substances.",
+                        "chaos": 15,
+                        "people": -10,
+                        "gov": 5
+                    }
+                ]
+            },
+            {
+                "text": "A secret meeting is planned to negotiate a ceasefire.",
+                "choices": [
+                    {
+                        "text": "Leak the meeting’s location to an enemy artillery unit.",
+                        "chaos": 25,
+                        "people": -10,
+                        "gov": -10
+                    },
+                    {
+                        "text": "Forge a declaration of surrender and distribute it to the frontline troops.",
+                        "chaos": 20,
+                        "people": -5,
+                        "gov": -5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "era": "Internet Age",
+        "year": "2024",
+        "scenarios": [
+            {
+                "text": "A viral video exposes a politician using AI-generated speech.",
+                "choices": [
+                    {
+                        "text": "Spread doctored videos of the politician confessing to fake crimes.",
+                        "chaos": 25,
+                        "people": 10,
+                        "gov": -10
+                    },
+                    {
+                        "text": "Forge documents proving the AI software belongs to a rival political party.",
+                        "chaos": 20,
+                        "people": -5,
+                        "gov": 5
+                    }
+                ]
+            },
+            {
+                "text": "Social media trends promote conspiracy theories about a vaccine.",
+                "choices": [
+                    {
+                        "text": "Plant fake studies linking the vaccine to bizarre side effects like green skin.",
+                        "chaos": 15,
+                        "people": 0,
+                        "gov": 10
+                    },
+                    {
+                        "text": "Create bots to amplify divisive debates, destabilizing communities.",
+                        "chaos": 20,
+                        "people": -5,
+                        "gov": 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "era": "Age of Chooms",
+        "year": "2077",
+        "scenarios": [
+            {
+                "text": "A hacktivist group exposes corporate exploitation in megacities.",
+                "choices": [
+                    {
+                        "text": "Fabricate footage showing the group working for a rival corporation.",
+                        "chaos": 20,
+                        "people": -5,
+                        "gov": 10
+                    },
+                    {
+                        "text": "Release heavily augmented raccoons with induced cyberpsychosis into the area, creating urban havoc.",
+                        "chaos": 30,
+                        "people": -10,
+                        "gov": -10
+                    }
+                ]
+            },
+            {
+                "text": "A new brain-computer interface claims to enhance cognition but has hidden side effects.",
+                "choices": [
+                    {
+                        "text": "Upload subliminal chaos-inducing messages into the software update.",
+                        "chaos": 25,
+                        "people": -10,
+                        "gov": 5
+                    },
+                    {
+                        "text": "Modify the interface to randomly display false emergency alerts, sowing panic.",
+                        "chaos": 20,
+                        "people": 5,
+                        "gov": -5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "era": "Age of the Matrioshka Brain",
+        "year": "12784",
+        "scenarios": [
+            {
+                "text": "A rogue AI faction threatens to crash the central simulation.",
+                "choices": [
+                    {
+                        "text": "Leak the faction’s plans as a 'test' to confuse the population.",
+                        "chaos": 20,
+                        "people": 5,
+                        "gov": -5
+                    },
+                    {
+                        "text": "Introduce a virus to glitch the faction's avatars into chaos-inducing forms.",
+                        "chaos": 25,
+                        "people": 10,
+                        "gov": 0
+                    }
+                ]
+            },
+            {
+                "text": "A resource war breaks out over energy allocation to simulations.",
+                "choices": [
+                    {
+                        "text": "Forge data suggesting some simulations are 'redundant,' turning factions against each other.",
+                        "chaos": 20,
+                        "people": -5,
+                        "gov": 10
+                    },
+                    {
+                        "text": "Introduce a subroutine that drains resources while pretending to be a critical system.",
+                        "chaos": 15,
+                        "people": 0,
+                        "gov": 5
+                    }
+                ]
+            }
+        ]
+    }
+]
