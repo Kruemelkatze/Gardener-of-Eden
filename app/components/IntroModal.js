@@ -6,7 +6,7 @@ export function IntroModal({ visible, onStart }) {
     const buttonColor = "bg-amber-400 hover:bg-amber-300 text-black";
 
     const scores = {
-        chaos: 400,
+        chaos: 150,
         gov: 70,
         people: 25,
     };

@@ -120,7 +120,7 @@ export default function ClientPage({ remount }) {
     }
 
     const newScores = { ...scores };
-    newScores.chaos = Math.max(0, Math.min(100, scores.chaos + choice.chaos * ChoiceMultipliers.chaos));
+    newScores.chaos = Math.max(0, scores.chaos + choice.chaos * ChoiceMultipliers.chaos);
     newScores.people = Math.max(0, Math.min(100, scores.people + choice.people * ChoiceMultipliers.people));
     newScores.gov = Math.max(0, Math.min(100, scores.gov + choice.gov * ChoiceMultipliers.gov));
 
