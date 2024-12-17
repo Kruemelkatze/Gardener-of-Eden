@@ -152,16 +152,16 @@ export default function ClientPage({ remount }) {
   }
 
   return (
-    <div className="flex flex-col justify-items-stretch items-stretch min-h-screen gap-16 sm:p-10 md:p-20 font-[family-name:var(--font-roboto-serif)]">
-      <div className="text-5xl font-semibold text-center">
+    <div className="flex flex-col justify-items-stretch items-stretch min-h-screen gap-8 md:gap-16 sm:p-10 md:p-20 font-[family-name:var(--font-roboto-serif)]">
+      <div className="text-5xl font-semibold text-center mt-10 md:mt-0 ">
         <CountUp start={currentStartYear} end={currentEndYear} duration={started ? 1.5 : 12000} formattingFn={formatYear} />
 
       </div>
-      <main className="flex flex-col gap-8 row-start-2 items-stretch flex-grow text-center">
+      <main className="flex flex-col gap-4 md:gap-8 row-start-2 items-stretch flex-grow text-center">
         <Era era={currentEra} onChoiceSelected={onChoiceSelected} />
 
         <div className="top-5 left-5 text-2xl flex flex-row justify-center">
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 w-full px-4">
             <Scores {...scores} />
           </div>
         </div>

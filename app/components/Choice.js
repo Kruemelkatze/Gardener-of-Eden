@@ -8,7 +8,7 @@ export default function Choice({ choice, onChoiceSelected }) {
         onChoiceSelected(choice);
     }
 
-    return (<div className="flex flex-grow height-full" onClick={selectChoice} style={{maxWidth: 'calc(50% - 4rem)'}}>
+    return (<div className="flex-1" onClick={selectChoice}>
         <Card title={choice?.text ?? 'No Choice'}>
             <ChoiceInfluence {...choice} />
         </Card>

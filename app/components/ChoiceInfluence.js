@@ -14,7 +14,7 @@ export function ChoiceInfluence(choice) {
     const peopleIcon = `${ScoreSymbols.people} ${peopleInfluence}`;
     const govIcon = `${ScoreSymbols.gov} ${govInfluence}`;
 
-    return (<div className="flex height-full flex-grow items-end justify-end mt-3">
+    return (<div className="flex flex-grow items-end justify-end mt-3">
         <Pill icon={chaosInfluence} bgColor={BGColorClasses.chaos} title={`Chaos ${chaos >= 0 ? "+" : ""}${chaos}`}></Pill>
         <Pill icon={peopleInfluence} bgColor={BGColorClasses.people} title={`People ${people >= 0 ? "+" : ""}${people}`}></Pill>
         <Pill icon={govInfluence} bgColor={BGColorClasses.gov} title={`Establishment ${gov >= 0 ? "+" : ""}${gov}`}></Pill>
